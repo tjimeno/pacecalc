@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>100 Mile Pace Calculator</h1>
+</div>
+<div class="input-fields">
+    <label for="goal-time">Goal Time: </label>
+    <input type="text" id="goal-time" required minlength="5" maxlength="8" size="10" placeholder="hh:mm:ss" />
+
+    <label for="segment-number">Segments to break this race into: </label>
+    <input type="text" id="segment-number" /> 
+</div>
